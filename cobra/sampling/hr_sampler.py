@@ -7,8 +7,8 @@ where possible to provide a uniform interface."""
 
 from __future__ import absolute_import, division
 
-from collections import namedtuple
 import ctypes
+from collections import namedtuple
 from logging import getLogger
 from multiprocessing import Array
 from time import time
@@ -17,9 +17,8 @@ import numpy as np
 from optlang.interface import OPTIMAL
 from optlang.symbolics import Zero
 
-from cobra.util import (
-    constraint_matrices, create_stoichiometric_matrix, nullspace)
-
+from cobra.util import (constraint_matrices, create_stoichiometric_matrix,
+                        nullspace)
 
 LOGGER = getLogger(__name__)
 

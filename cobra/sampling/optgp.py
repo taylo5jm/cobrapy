@@ -12,7 +12,6 @@ import pandas
 from cobra.core.configuration import Configuration
 from cobra.sampling.hr_sampler import HRSampler, shared_np_array, step
 
-
 __all__ = ("OptGPSampler",)
 
 
